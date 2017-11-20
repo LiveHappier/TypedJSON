@@ -555,6 +555,7 @@ function JsonObject(optionsOrTarget) {
 }
 exports.JsonObject = JsonObject;
 function jsonMemberTypeInit(metadata, propertyName, warnArray) {
+    console.log(metadata)
     if (warnArray === void 0) { warnArray = false; }
     if (metadata.elements) {
         // 'elements' type shorthand.
