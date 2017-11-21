@@ -688,7 +688,7 @@ interface JsonMemberOptions<TFunction extends Function> {
 }
 
 function jsonMemberTypeInit<T>(metadata: JsonMemberMetadata<T>, propertyName: string, warnArray = false) {
-    console.log(metadata)
+    
     if (metadata.elements) {
         // 'elements' type shorthand.
         if (typeof metadata.elements === "function") {
